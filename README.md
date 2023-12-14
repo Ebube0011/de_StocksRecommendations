@@ -1,5 +1,5 @@
 # Stocks Financial Data ETL
-![Template Arch](https://github.com/Ebube0011/de_StocksRecommendations/assets/149321069/27b2c1de-edc7-4ba8-b1b8-0562f1645ac5)
+![STOCKS_RECOMMENDATION-Data_Architecture drawio](https://github.com/Ebube0011/de_StocksRecommendations/assets/149321069/a6ab279b-162d-4d84-8d5d-ea2e2b181055)
 This is my first Data Engineering project to extract data from API for stocks recommendations to be done on MS Excel using VBA. It's a simple project designed to help me practice using containers (docker), orchestration (airflow), api's, improving my programming and data transformation skills
 
 ## Description
@@ -55,4 +55,5 @@ docker compose -f docker_something.yml down
 At this stage we simply download the data from the S3 bucket into the local computer for data analytics on the data. 
 
 Enjoy!
+
 
