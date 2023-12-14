@@ -13,18 +13,18 @@ The final data is loaded into Amazon S3 bucket, this also isn't necessary. The d
 
 ### Ingestion
 At this stage we need to extract the necessary data ingredients required for the project, but the tools are still needed to be setup to ensure smooth operations moving forward. In this stage, the main tools to be setup are:
-- the linux computer
+- The Linux Computer : 
   I'll assume that our linux computer (or compute instance) is running and ready to go. Docker and Airflow do have certain minimum system requirements to be able to run smoothly, so please do keep that in mind.
-- Amazon S3 bucket
+- Amazon S3 bucket : 
   I will also assume that we have an account on AWS and can setup a bucket for this project.
-- Docker
+- Docker : 
   The next step will be to install docker. There are a few ways to do so, the unofficial and official. If you choose to go ahead with the unofficial method, it wouldn't be hard at all. All you would to do is run the following commands on your linux terminal
 ```bash
 sudo apt install docker.io
 sudo apt install docker-compose
 ```
 If you however choose to use the official version of docker, please follow the instructions in this link: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
-- Airflow
+- Airflow : 
   Having installed docker, run this command to clone a repository with the special tools to run airflow on docker. We could have built the docker file and image ourselves but that is something i'm still learning
 ```bash
 git clone https://github.com/dogukannulu/docker-airflow.git
